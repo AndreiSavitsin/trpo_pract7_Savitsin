@@ -8,7 +8,7 @@ using System.Windows.Data;
 
 namespace trpo_pract7_Savitsin.Converters
 {
-    class AnnualRateConverter :IValueConverter
+    class AnnualRateConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parametr,
             CultureInfo culture)

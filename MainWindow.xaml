@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:trpo_pract7_Savitsin"
         xmlns:models="clr-namespace:trpo_pract7_Savitsin.Models"
-        xmlns:converters="clr-namespace:trpo_pract7_Savitsin.Converters"
+        xmlns:converters="clr-namespace:trpo_pract7_Savitsin.Converters"        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <models:Deposit x:Key="deposit"/>
         <converters:AnnualRateConverter x:Key="annualRateConverter"/>
+        <converters:IncomeInGreenColor x:Key="incomeInGreenColor"/>
     </Window.Resources>
     <Window.DataContext>
         <Binding Source="{StaticResource deposit}"/>
@@ -54,7 +55,7 @@
 
             <StackPanel>
                 <Label>Сумма:</Label>
-                <TextBlock Text="{Binding Amount, StringFormat={}{0:C}}"/>
+                <TextBlock Text="{Binding Amount, StringFormat={}{0:C}, ConverterCulture=ru-RU}"/>
             </StackPanel>
 
             <StackPanel>
@@ -69,8 +70,10 @@
 
             <StackPanel>
                 <Label>Доход:</Label>
-                <TextBlock Text="{Binding Income, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Text="{Binding Income, StringFormat={}{0:C},
+                    ConverterCulture=ru-RU}" Foreground="{Binding Income, Converter={StaticResource incomeInGreenColor}}"/>
             </StackPanel>
+            
 
         </StackPanel>
         

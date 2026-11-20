@@ -31,17 +31,17 @@
 
             <StackPanel>
                 <Label>Сумма</Label>
-                <TextBox Text="{Binding Amount, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBox Text="{Binding Amount, TargetNullValue='', UpdateSourceTrigger=PropertyChanged}"/>
             </StackPanel>
 
             <StackPanel>
                 <Label>Годовая ставка</Label>
-                <TextBox Text="{Binding AnnualRate, Converter={StaticResource annualRateConverter}, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBox Text="{Binding AnnualRate, TargetNullValue='', Converter={StaticResource annualRateConverter}, UpdateSourceTrigger=PropertyChanged}"/>
             </StackPanel>
 
             <StackPanel>
                 <Label>Количество месяцев</Label>
-                <TextBox Text="{Binding Months, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBox Text="{Binding Months, TargetNullValue='', UpdateSourceTrigger=PropertyChanged}"/>
             </StackPanel>
 
         </StackPanel>
@@ -69,8 +69,17 @@
             </StackPanel>
 
             <StackPanel>
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Income}" Value="0">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
                 <Label>Доход:</Label>
-                <TextBlock Text="{Binding Income, StringFormat={}{0:C},
+                <TextBlock Text="{Binding Income, TargetNullValue='', StringFormat={}{0:C},
                     ConverterCulture=ru-RU}" Foreground="{Binding Income, Converter={StaticResource incomeInGreenColor}}"/>
             </StackPanel>
             

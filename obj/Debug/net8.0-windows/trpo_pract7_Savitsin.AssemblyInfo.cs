@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("trpo_pract7_Savitsin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afc4ba1fc1ff256734f553bfd125bc1df6874cdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35396c948852c169c6eb0f9bfc21f88511e0aed")]
 [assembly: System.Reflection.AssemblyProductAttribute("trpo_pract7_Savitsin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("trpo_pract7_Savitsin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

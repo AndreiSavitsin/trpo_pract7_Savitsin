@@ -68,8 +68,8 @@ namespace trpo_pract7_Savitsin.Models
         public double Income
         {
             get
-            {
-                double _income = Amount * AnnualRate * (Months / 12);
+            {                
+                double _income = Amount * AnnualRate * Months;
                 return _income;
             }
         }

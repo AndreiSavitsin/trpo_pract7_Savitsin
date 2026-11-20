@@ -60,7 +60,7 @@
 
             <StackPanel>
                 <Label>Годовая ставка:</Label>
-                <TextBlock Text="{Binding AnnualRate, StringFormat={}{0:F2}}"/>
+                <TextBlock Text="{Binding AnnualRate, StringFormat={}{0:P0}}"/>
             </StackPanel>
 
             <StackPanel>

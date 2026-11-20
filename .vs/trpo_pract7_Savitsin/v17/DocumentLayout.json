@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|c:\\users\\st310-02\\desktop\\\u0441\u0430\u0432\u0438\u0446\u0438\u043D \u043F\u0440-31\\trpo_pract7_savitsin\\models\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:models\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\converters\\annualrateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:converters\\annualrateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\converters\\incomeingreencolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:converters\\incomeingreencolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\converters\\annualrateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A989DF8-D71D-4B8E-A07D-871ECB8DA6D5}|trpo_pract7_Savitsin.csproj|solutionrelative:converters\\annualrateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IncomeInGreenColor.cs",
               "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\Converters\\IncomeInGreenColor.cs",
               "RelativeDocumentMoniker": "Converters\\IncomeInGreenColor.cs",
@@ -42,38 +42,37 @@
               "RelativeToolTip": "Converters\\IncomeInGreenColor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-19T13:39:42.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-19T13:39:42.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AnnualRateConverter.cs",
               "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\Converters\\AnnualRateConverter.cs",
               "RelativeDocumentMoniker": "Converters\\AnnualRateConverter.cs",
               "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\Converters\\AnnualRateConverter.cs",
               "RelativeToolTip": "Converters\\AnnualRateConverter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T06:08:27.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Deposit.cs",
               "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\Models\\Deposit.cs",
               "RelativeDocumentMoniker": "Models\\Deposit.cs",
               "ToolTip": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\Models\\Deposit.cs",
               "RelativeToolTip": "Models\\Deposit.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwDgAAAAbAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T05:43:39.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -85,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-02\\Desktop\\\u0421\u0430\u0432\u0438\u0446\u0438\u043D \u041F\u0420-31\\trpo_pract7_Savitsin\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T05:42:42.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-13T05:42:42.873Z"
             }
           ]
         },
